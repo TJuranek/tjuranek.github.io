@@ -1,0 +1,52 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.introduction {
+    background-image: url('../img/background.jpg');
+    background-size: contain;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+
+.introduction-content-wrapper {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.introduction-content {
+    color: #ffffff;
+    display: inline-block;
+}
+
+.img-profile {
+    border: 10px solid rgba(255, 255, 255, .6);
+    border-radius: 50%;
+    height: 35%;
+    width: 35%;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.hr-intro {
+    border: none;
+    height: 3px;
+    width: 60%;
+    /* Set the hr color */
+    background-color: #ffffff; /* Modern Browsers */
+}
+
+.btn-intro {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 70px;
+}
+
+.btn-intro:hover {
+    font-size: 75px;
+}
