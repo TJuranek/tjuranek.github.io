@@ -50,3 +50,11 @@ h1 {
 .btn-intro:hover {
     font-size: 75px;
 }
+
+p {
+    font-size: 18px;
+}
+
+.i-section {
+    font-size: 70px;
+}
