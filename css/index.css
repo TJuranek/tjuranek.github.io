@@ -36,8 +36,7 @@ h1 {
     border: none;
     height: 3px;
     width: 60%;
-    /* Set the hr color */
-    background-color: #ffffff; /* Modern Browsers */
+    background-color: #ffffff;
 }
 
 .btn-intro {
@@ -68,7 +67,7 @@ p {
     padding: 15px;
 }
 
-.section-header {
+.section-header2 {
     font-weight: bold;
     padding: 15px;
 }
@@ -77,4 +76,57 @@ p {
     font-size: 20px;
     font-weight: bold;
     padding-top: 15px;
+}
+
+.section-hr {
+    border: none;
+    height: 1px;
+    background-color: #000000;
+}
+
+.section-padded {
+    padding-top: 10vh;
+}
+
+.section-header {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.section-name {
+    color: #ff6c37;
+}
+
+.terminal {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.terminal-header {
+    background-color: #3C3839;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+}
+
+.terminal-icon {
+    color: #878982;
+}
+
+.terminal-header-text {
+    margin-left: 5px;
+}
+
+.terminal-body {
+    background-color: #300924;
+    border: 2px solid #7A5566;
+    border-top: none;
+    padding-bottom: 1vh;
+}
+.terminal-body-user {
+    color: #76B940;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.terminal-body-command {
+    color: #ffffff;
 }
