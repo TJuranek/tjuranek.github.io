@@ -1,54 +1,118 @@
 body {
+    background-color: #f5f5f5;
     font-family: 'PT Sans', sans-serif;
 }
 
-.introduction {
-    background-image: url('../img/background.jpg');
-    background-size: contain;
-    display: table;
-    height: 100vh;
-    width: 100%;
+/* Intro */
+.intro-nav {
+    background-color: #00BCD4;
+    height: 20vh;
 }
 
-.introduction-content-wrapper {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+#intro-nav-name-container {
+    padding-top: 5px;
+    padding-left: 30px;
 }
-
-.introduction-content {
+#intro-nav-name {
     color: #ffffff;
-    display: inline-block;
+    font-size: 30px;
 }
 
-.img-profile {
-    border: 10px solid rgba(255, 255, 255, .6);
+#intro-nav-icon-container {
+    padding-top: 15px;
+    padding-right: 40px;
+}
+
+.intro-nav-icon {
+    color: #ffffff;
+    font-size: 25px;
+    border: solid 2px #ffffff;
     border-radius: 50%;
-    height: 35%;
-    width: 35%;
+    padding: 8px;
 }
 
-h1 {
-    font-size: 80px;
+.intro-profile {
+    background-color: #00a5bb;
+    height: 50vh;
 }
 
-.hr-intro {
-    border: none;
-    height: 3px;
-    width: 60%;
-    background-color: #ffffff;
+.intro-profile-image {
+    border: 5px solid rgba(255, 255, 255, .6);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+    top: 100px;
+    margin-left: -100px;
+    left: 50%;
 }
 
-.btn-intro {
-    background-color: transparent;
-    border: none;
+.intro-profile-content {
+    padding-top: 125px;
+}
+
+.intro-profile-name {
     color: #ffffff;
-    font-size: 70px;
+    font-size: 60px;
 }
 
-.btn-intro:hover {
-    font-size: 75px;
+.intro-profile-title {
+    font-size: 30px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.8);
+    margin-top: 20px;
 }
+
+.intro-profile-bio {
+    line-height: 1.5;
+    color: #ffffff;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.intro-profile-button {
+    color: #ffffff;
+    background-color: transparent;
+    border: solid 2px #ffffff;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* About */
+.paper {
+    background-color: #ffffff;
+    margin-top: 15px;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    padding: 45px;
+    background: #fff;
+    margin-bottom: 45px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 p {
     font-size: 18px;
@@ -95,38 +159,4 @@ p {
 
 .section-name {
     color: #ff6c37;
-}
-
-.terminal {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.terminal-header {
-    background-color: #3C3839;
-    border-radius: 5px 5px 0px 0px;
-    color: white;
-}
-
-.terminal-icon {
-    color: #878982;
-}
-
-.terminal-header-text {
-    margin-left: 5px;
-}
-
-.terminal-body {
-    background-color: #300924;
-    border: 2px solid #7A5566;
-    border-top: none;
-    padding-bottom: 1vh;
-}
-.terminal-body-user {
-    color: #76B940;
-    font-weight: bold;
-    margin-left: 5px;
-}
-
-.terminal-body-command {
-    color: #ffffff;
 }
