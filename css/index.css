@@ -9,6 +9,10 @@
     background-position: 50% 50%;
 }
 
+header {
+    height: 100vh;
+}
+
 .intro {
     color: #fff;
     font-family: 'Lato', sans-serif;
