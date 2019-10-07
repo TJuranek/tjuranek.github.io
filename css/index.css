@@ -13,37 +13,51 @@ header {
     height: 100vh;
 }
 
-.intro {
-    color: #fff;
+body {
     font-family: 'Lato', sans-serif;
+}
+
+
+/* Header/Intro */
+
+.intro {
     position: absolute;
-    top: 40%;
     left: 120px;
+    top: 34%;
     width: 50%;
 }
 
+@media only screen and (max-width: 768px) {
+    .intro {
+        left: 0;
+        top: 26%;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+}
+
 .intro-header {
+    margin-bottom: 0;
     font-weight: 300;
-    font-size: 3.5em;
+    font-size: 3em;
     line-height: 67px;
     letter-spacing: 0;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .intro-header {
+        font-size: 2em;
+        line-height: 51px;
+    }
 }
 
 .intro-info {
+    color: #fff;
     font-size: 23px;
     line-height: 34px;
     font-weight: 300px;
-    opacity: 0.7;
-}
-
-.intro-icon {
-    background: transparent;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: #fff solid 2px;
-    text-align: center;
-    line-height: 50px;
     opacity: 0.7;
 }
 
@@ -62,19 +76,4 @@ header {
     font-weight: 400;
     letter-spacing: 2px;
     padding: 0.85em 2em 0.83em;
-}
-
-/*
-.header-content {
-    top: 0;
-    left: 0;
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-
-}
-*/
-
-h1 {
-    color: white;
 }
