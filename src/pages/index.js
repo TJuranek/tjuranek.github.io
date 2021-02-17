@@ -1,6 +1,6 @@
 import React from 'react';
-import { Heading } from '../components/heading';
+import { Landing } from '../sections/landing';
 
 export default function Home() {
-	return <Heading />;
+	return <Landing />;
 }
